@@ -6,7 +6,7 @@
 #include <XLib/XObjectEx.h>
 #include <XLib/XEvent.h>
 
-#define USES_MULTITHREAD 1
+#define USES_MULTITHREAD 0
 
 class Objecter;
 

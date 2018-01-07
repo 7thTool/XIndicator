@@ -1,12 +1,10 @@
 #ifndef _H_XLoginGuarder_H_
 #define _H_XLoginGuarder_H_
 
-#pragma comment(lib,"XLoginGuarder.lib")
-
 #include <Util/ObjecterMap.h>
 #include <QDataStd.h>
 #include <CTPDataStd.h>
-#include <DataEngine/CTPTrader/CTPDef.h>
+#include <DataEngine/CTP/CTPDef.h>
 
 class XLoginGuarder 
 	: virtual public Objecter
