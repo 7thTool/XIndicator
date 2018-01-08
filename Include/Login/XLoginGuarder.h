@@ -2,9 +2,6 @@
 #define _H_XLoginGuarder_H_
 
 #include <Util/ObjecterMap.h>
-#include <QDataStd.h>
-#include <CTPDataStd.h>
-#include <DataEngine/CTP/CTPDef.h>
 
 class XLoginGuarder 
 	: virtual public Objecter
