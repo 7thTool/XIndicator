@@ -16,7 +16,7 @@
 
 #define USE_PLATFORMAPI	0
 
-#define USE_XPLATFORMAPI 1
+#define USE_XPLATFORMAPI 0
 
 #if USE_PLATFORMAPI || USE_XPLATFORMAPI
 
@@ -45,6 +45,7 @@
 #pragma comment(lib, "DataEngine.lib")
 
 #pragma comment(lib, "XPlatformLib.lib")
+#pragma comment(lib, "XLoginLib.lib")
 #pragma comment(lib, "XLogin.lib")
 
 #endif//

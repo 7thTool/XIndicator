@@ -83,7 +83,7 @@ unsigned int __stdcall IndicatorFunc(void* pParam)
 #if 0
 	system("pause");
 #else
-	theLoop.Join();
+	theLoop.Run();
 #endif//
 
 	if (hMyMACD) {
@@ -221,7 +221,7 @@ unsigned int __stdcall ThreadFunc(void* pParam)
 #if 0
 	system("pause");
 #else
-	theLoop.Join();
+	theLoop.Run();
 #endif//
 
 	//释放指标线程池
@@ -286,6 +286,10 @@ int Run()
 #else
 	//初始化XLib
 	XLibInit::Init();
+
+	Thread thrd;
+
+	thrd.CreateThread(ThreadFunc, NULL);
 
 	//thrd.Join();
 	//system("pause");
